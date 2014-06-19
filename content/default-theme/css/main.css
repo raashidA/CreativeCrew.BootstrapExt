@@ -95,6 +95,7 @@ body{
 .inside-header .rightside{
     float: right;
     text-align: right;
+    padding-top: 22px;
 }
 .inside-header .title{
     font-size: 25px;
@@ -172,20 +173,131 @@ body{
     padding:15px;
     border-radius:10px;
 }
+.home-contend .checkbox{
+    background: #fff;
+    padding:15px;   
+}
 
+input[type=checkbox] {
+	visibility: hidden;
+}
 
+/* Radio Button */
 
+input[type=radio].css-checkbox {
+							display:none;
+						}
 
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:29px;
+							height:24px; 
+							display:inline-block;
+							line-height:26px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:16px;
+							vertical-align:middle;
+							cursor:pointer;
+                            padding-right: 15px;
+                            color: #23408f;
 
+						}
 
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -24px;
+						}
+						label.css-label {
+				background-image:url(../../../images/checkbo.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+}
 
+.homesearch{
+    border-radius: 5px solid #;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #23408f;
+    padding-left: 10px;
+    color: #23408f;
+}
 
+.select-style {
+    width: 120px;
+    border-radius: 5px;
+    height: 40px;
+     padding: 5px 0px 0px 0px;
+    color: #fff;
+    overflow: hidden;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #23408f url(../../../images/down-arrow.png) no-repeat 90% 50%;
+}
 
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+   
+}
 
+.select-style select:focus {
+    outline: none;
+     background: #23408f;
+}
 
+.home-contend .search-button{
+    background: #ecdc00;
+    color: #24418f;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 25px2;
+     height: 40px;
+    
+}
+.login-box{
+    background: #fff;
+    padding:15px;
+    border-radius:10px;
+    margin-left: 25px;
+}
 
-
-
+.login-box .login-title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color:#23408f;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+.subtext{
+    font-size: 12px;
+    color: #959595;
+    text-transform: capitalize;
+}
+.login-box .login-oauth{
+    margin: 0px auto;
+    align-content: center;
+}
+.border-right{
+    border-right: 1px solid #e3e3e3;
+}
 
 
 
