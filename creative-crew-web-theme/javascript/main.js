@@ -69,6 +69,12 @@ $("#loadTypography").bind({
         $("#midContainer").load('typhography.html');
     }
 });
+$("#loadWizard").bind({
+    click: function () {
+
+        $("#midContainer").load('wizard.html');
+    }
+});
 
 
 
